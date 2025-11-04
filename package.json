@@ -1,0 +1,15 @@
+{
+  "name": "sdaw_xxxx",
+  "version": "1.0.0",
+  "description": "Proyecto base para la práctica de uso de repositorios digitales (Git)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Agustín Franco Ruiz",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
