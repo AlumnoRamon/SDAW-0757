@@ -12,7 +12,7 @@ saludar al usuario.
 
 ## Estructura del proyecto
 
-SDAW_5426
+SDAW_0757
 
 --- index.html
 
@@ -28,7 +28,7 @@ SDAW_5426
 ## Instrucciones para ejecutar el proyecto localmente
 
 1. Clonar o descargar este repositorio.
-2. Abrir una terminal dentro de la carpeta del proyecto SDAW_5426.
+2. Abrir una terminal dentro de la carpeta del proyecto SDAW_0757.
 3. Instalar las dependencias necesarias ejecutando:
 npm install
 4. Iniciar el servidor con:
@@ -96,3 +96,4 @@ Alumno del módulo “Sistemas de Desarrollo de Aplicaciones Web”
 IES Ramón Arcas Meca
 
 Año académico 2025/2026 
+
