@@ -70,7 +70,7 @@ Simulación del comando git log --oneline:
 b3a42f9 docs: añadir log resumido (rama2)
 5cd64a1 docs: añadir explicación de comandos Git (rama1)
 8a3e129 chore: añadir .gitignore
-2c14a57 feat: inicializar proyecto SDAW_5426 - estructura base
+2c14a57 feat: inicializar proyecto SDAW_0757 - estructura base
 
 ## Capturas y comprobaciones recomendadas
 
@@ -96,4 +96,5 @@ Alumno del módulo “Sistemas de Desarrollo de Aplicaciones Web”
 IES Ramón Arcas Meca
 
 Año académico 2025/2026 
+
 
