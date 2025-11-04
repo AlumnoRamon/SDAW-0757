@@ -2,99 +2,114 @@
 
 ## Descripción
 
-Este proyecto ha sido desarrollado por Ramón Rueda Pérez como parte de la tarea “Uso de
-repositorios digitales (Git) I”.
-El objetivo es crear una pequeña aplicación web en Node.js que muestre un mensaje
-personalizado mediante JavaScript y gestionar su desarrollo utilizando Git y GitHub con un flujo
-completo de trabajo en ramas, commits y pull requests.
-El servidor web se ejecuta con Express y sirve un archivo HTML que muestra un botón para
-saludar al usuario.
+Este proyecto ha sido desarrollado por **Ramón Rueda Pérez** como parte de la actividad _“Uso de repositorios digitales (Git) I”_.  
+Su finalidad es crear una pequeña aplicación web con **Node.js** que muestre un saludo personalizado mediante JavaScript.  
+El repositorio se gestiona utilizando **Git y GitHub**, aplicando un flujo de trabajo con ramas, commits y pull requests.  
+El servidor está construido con **Express** y sirve un archivo HTML que contiene un botón para interactuar con el usuario.
+
+---
 
 ## Estructura del proyecto
 
+```
 SDAW_0757
+├── index.html
+├── script.js
+├── package.json
+├── server.js
+├── README.md
+└── .gitignore
+```
 
---- index.html
+---
 
---- script.js
-
---- package.json
-
---- server.js
-
---- README.md
-
---- .gitignore
-## Instrucciones para ejecutar el proyecto localmente
+## Ejecución en local
 
 1. Clonar o descargar este repositorio.
-2. Abrir una terminal dentro de la carpeta del proyecto SDAW_0757.
-3. Instalar las dependencias necesarias ejecutando:
-npm install
-4. Iniciar el servidor con:
-npm start
-5. Abrir el navegador y visitar: http://localhost:3000
+2. Acceder a la carpeta principal:
+   ```
+   cd SDAW_0757
+   ```
+3. Instalar dependencias:
+   ```
+   npm install
+   ```
+4. Ejecutar el servidor:
+   ```
+   npm start
+   ```
+5. Abrir navegador web e ingresar a:
+   http://localhost:3000
+
+---
 
 ## Comandos Node.js utilizados
 
-npm init -y: Inicializa un proyecto Node.js.
+- `npm init -y` → Inicializa un proyecto Node.js con configuración por defecto.
+- `npm install express` → Instala Express como dependencia.
+- `npm start` → Ejecuta el servidor definido en `server.js`.
 
-npm install express: Instala el framework Express.
+---
 
-npm start: Inicia el servidor.
+## Comandos Git empleados
 
-## Comandos Git utilizados
+- `git init` → Inicializa un repositorio local.
+- `git add .` → Añade archivos al área de preparación.
+- `git commit -m ""` → Crea un punto en el historial de cambios.
+- `git branch` → Lista o crea ramas.
+- `git checkout -b` → Crea y se mueve a una nueva rama.
+- `git merge` → Integra cambios de otra rama.
+- `git push origin` → Sube los cambios al repositorio remoto.
+- `git pull origin` → Obtiene cambios desde el remoto.
+- `git status` → Muestra el estado actual del repositorio.
+- `git log --oneline` → Muestra el historial resumido.
 
-git init : Inicializa un repositorio local.
-git add . : Añade todos los archivos al área de preparación.
-git commit -m "" : Guarda los cambios en el historial.
-git branch : Lista o crea ramas.
-git checkout -b : Crea y cambia a una nueva rama.
-git merge : Fusiona ramas.
-git push origin : Sube los cambios al repositorio remoto.
-git pull origin : Descarga los cambios del remoto.
-git status : Muestra el estado actual del repositorio.
-git log --oneline : Muestra el historial resumido.
+---
 
-## Información técnica añadida desde rama 1
+## Información técnica desde rama 1
 
-- git init: Inicializa un nuevo repositorio Git local en la carpeta actual.
-- git add: Añade archivos al área de preparación.
-- git commit: Registra los cambios con un mensaje descriptivo.
-- git branch: Crea o lista ramas.
-- git merge: Fusiona los cambios de una rama en otra.
-- git push: Envía los commits locales al repositorio remoto.
-## Información técnica añadida desde rama 2
+- **git init:** Crea un repositorio vacío.
+- **git add:** Añade cambios al área de staging.
+- **git commit:** Guarda los cambios en el historial.
+- **git branch:** Gestiona ramas.
+- **git merge:** Fusiona ramas manteniendo historial.
+- **git push:** Envía cambios al repositorio remoto.
 
-Simulación del comando git log --oneline:
-b3a42f9 docs: añadir log resumido (rama2)
-5cd64a1 docs: añadir explicación de comandos Git (rama1)
-8a3e129 chore: añadir .gitignore
-2c14a57 feat: inicializar proyecto SDAW_0757 - estructura base
+---
 
-## Capturas y comprobaciones recomendadas
+## Información técnica desde rama 2
 
-- Estructura del proyecto en VS Code.
-- Ejecución del servidor (npm start) mostrando la URL.
-- Navegador con el mensaje “Hola Agustín Franco Ruiz”.
-- Salida de git status y git log --oneline.
-- GitHub mostrando ramas y pull requests mergeados.
+Salida simulada de `git log --oneline`:
 
-## Conclusiones personales
+```
+b3a42f9 docs: incluir log resumido (rama2)
+5cd64a1 docs: añadir explicación comandos Git (rama1)
+8a3e129 chore: agregar .gitignore
+2c14a57 feat: crear estructura base proyecto SDAW_0757
+```
 
-Durante la práctica he aprendido a usar Git para gestionar versiones,
-crear y fusionar ramas, documentar el trabajo y ejecutar un servidor básico
-con Node.js y Express. Comprendí mejor el flujo de trabajo colaborativo con GitHub
-y la importancia de mantener un historial de commits claro y ordenado.
+---
+
+## Capturas recomendadas
+
+- Vista del proyecto en VS Code
+- Ejecución del servidor (`npm start`)
+- Navegador mostrando mensaje “Hola Ramón Rueda Pérez”
+- Resultados de `git status` y `git log --oneline`
+- GitHub con ramas y pull requests integrados
+
+---
+
+## Conclusiones
+
+Esta práctica ha permitido comprender el uso de Git y GitHub para el control de versiones, consolidar el manejo de ramas y fusiones, y establecer un flujo de trabajo ordenado mediante commits claros.  
+Además, se ha reforzado la ejecución de un servidor básico con Node.js y Express.
+
+---
 
 ## Autor
 
-Ramón Rueda Pérez
-
-Alumno del módulo “Sistemas de Desarrollo de Aplicaciones Web”
-
-IES Ramón Arcas Meca
-
-Año académico 2025/2026 
-
-
+**Ramón Rueda Pérez**  
+Estudiante del módulo _Sistemas de Desarrollo de Aplicaciones Web_  
+IES Ramón Arcas Meca  
+Curso 2025/2026
